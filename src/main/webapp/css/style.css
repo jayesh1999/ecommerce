@@ -1,0 +1,99 @@
+.custom-bg{
+	background:#673ab7!important;
+}
+
+.mb-10{
+	margin-bottom: 10px;
+}
+
+.ml {
+	margin-left:50px;
+}
+
+
+.admin .card {
+	border : 1px solid red;
+	
+}
+
+.admin .card:hover {
+	 background-color: #e2e2e2;
+	 cursor : pointer;
+}
+
+.list-group-item.active {
+		background:#673ab7!important;
+		border-color:#673ab7!important;
+}
+
+.discount-label {
+	font-size: 10px;
+	font-style: italic;
+	text-decoration: line-through!important;
+}
+
+
+.product-card:hover {
+	background: #e2e2e2;
+	cursor:pointer;
+}
+
+.checkout-btn {
+	background:#673ab7!important;
+}
+
+
+#toast {
+	
+	min-width:300px;
+	position: fixed;
+	bottom:30px;
+	left:50%;
+	margin-left: -120px;
+	background:#333;
+	padding:15px;
+	color:white;
+	text-align:center;
+	x-index:1;
+	font-size:20px;
+	visibility:hidden;
+	box-shadow:0px 0px 100px #000;
+
+}
+#toast.display{
+	visibility:visible;
+	aniation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+
+@keyframes fadeIn {
+	from {
+	bottom: 0;
+	opacity:0;
+	}
+	
+	to {
+	bottom: 30px;
+	opacity:1;
+	}
+	
+}
+
+@keyframes fadeOut {
+	from {
+	bottom: 30px;
+	opacity:0;
+	}
+	
+	to {
+	bottom: 30px;
+	opacity:1;
+	}
+	
+}
+
+
+
+.submit-cart-btn {
+	background:#673ab7!important;
+}
